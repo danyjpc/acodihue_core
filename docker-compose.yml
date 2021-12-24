@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  acodihue:
+    build: .
+    container_name: acodihue-core
+    restart: always
+    env_file:
+      - ./server-variables.env
+    ports:
+      - "8888:8080"
+    volumes:
+      - "../files/acodihue:/opt/payara/documents"

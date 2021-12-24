@@ -1,0 +1,12 @@
+src/main/webapp/WEB-INF/glassfish-resources.xml
+target
+.classpath
+.project
+.settings/
+nb-configuration.xml
+.idea/
+derby.log
+acodihue-core.iml
+server-variables.env
+src/main/java/com/peopleapps/util/FlywayBootstrapper.java
+src/main/resources/META-INF/persistence.xml
